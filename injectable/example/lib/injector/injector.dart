@@ -3,8 +3,8 @@ import 'package:injectable/injectable.dart';
 
 import 'injector.config.dart';
 
-const platformMobile = Environment("platformMobile");
-const platformWeb = Environment("platformWeb");
+const platformMobile = Environment('platformMobile');
+const platformWeb = Environment('platformWeb');
 
 GetIt getIt = GetIt.instance;
 

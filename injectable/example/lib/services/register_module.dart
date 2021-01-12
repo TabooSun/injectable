@@ -1,9 +1,10 @@
 // ignore_for_file: public_member_api_docs
 
-import 'package:example/injector/Service.dart';
-import 'package:example/injector/Service_impl.dart';
-import 'package:example/injector/injector.dart';
 import 'package:injectable/injectable.dart';
+
+import '../injector/Service.dart';
+import '../injector/Service_impl.dart';
+import '../injector/injector.dart';
 
 @module
 abstract class RegisterModule {
