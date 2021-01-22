@@ -12,3 +12,8 @@ builders:
     build_extensions: { ".dart": [".config.dart"] }
     auto_apply: dependents
     build_to: source
+    defaults:
+      options:
+        prefer_relative_imports: true
+        outputs:
+          lib/di/injection:

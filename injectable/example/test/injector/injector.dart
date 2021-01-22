@@ -1,4 +1,4 @@
 import 'package:injectable/injectable.dart';
-
-@InjectableInit(generateForDir: ['test'])
-configureTestDependencies() {}
+//
+// @InjectableInit(generateForDir: ['test'])
+// configureTestDependencies() {}

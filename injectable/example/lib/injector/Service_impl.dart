@@ -9,7 +9,7 @@ class MobileService extends Service {
   @override
   final Set<String> environments;
 
-  MobileService(@Named(kEnvironmentsName) this.environments) {}
+  MobileService(@Named(kEnvironmentsName) this.environments);
 }
 
 @platformWeb
@@ -18,5 +18,5 @@ class WebService extends Service {
   @override
   final Set<String> environments;
 
-  WebService(@Named(kEnvironmentsName) this.environments) {}
+  WebService(@Named(kEnvironmentsName) this.environments);
 }

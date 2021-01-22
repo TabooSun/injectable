@@ -1,6 +1,6 @@
 import 'package:injectable/injectable.dart';
 
-@injectable
+// @injectable
 class TestService {
   TestService();
 }

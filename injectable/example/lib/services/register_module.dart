@@ -24,7 +24,7 @@ abstract class RegisterModule {
 abstract class Repo {}
 
 class RepoImpl extends Repo {
-  RepoImpl(Service service);
+  RepoImpl(Service serviceA);
 
   static Future<int> get asyncValue async {
     await Future.delayed(Duration(seconds: 2));
